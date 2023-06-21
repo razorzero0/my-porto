@@ -11,8 +11,11 @@
   }
 }
 
-.fixednav {
-  @apply z-[9999]  fixed top-0  shadow-sm   opacity-95 backdrop-blur-lg;
+.fixednav,
+#navbar {
+  @apply z-[9999]  fixed top-0  shadow-sm;
+  /* background: rgba(255, 200, 61, 0.75); */
+  backdrop-filter: blur(20px);
 }
 
 .nav {
